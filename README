@@ -1,0 +1,21 @@
+install and use only python 3.10.10:
+Open terminal in this folder:
+# In folder firectory run terminal:
+# python -m venv vir-env
+
+
+# On Windows, run:
+# vir-env\Scripts\activate.bat
+
+# On Unix or MacOS, run:
+# source vir-env/bin/activate
+
+After all, run:
+python -m pip install -r requirements.txt
+if needed:
+pip install --upgrade pip
+
+
+
+For win-users:
+pip install tensorflow
