@@ -1,1 +1,4 @@
 .DS_Store
+osx-venv/
+temp/
+datasets/household_power_consumption.txt

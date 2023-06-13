@@ -1,4 +1,4 @@
-install and use only python 3.10.10:
+install and use only python 3.10.12:
 Open terminal in this folder:
 # In folder firectory run terminal:
 # python -m venv vir-env
@@ -19,3 +19,8 @@ pip install --upgrade pip
 
 For win-users:
 pip install tensorflow
+
+
+python -m venv env
+
+source venv/bin/activate
