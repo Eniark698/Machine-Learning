@@ -1,0 +1,25 @@
+version: '1'
+name: pendragon-ai-tensorflow
+services:
+  tensorflow-jupyter-gpu:
+    container_name: tensorflow-jupyter-gpu
+    build:
+      context: .
+      dockerfile: ./dockerfile
+    tty: true
+    volumes:
+      - ./data/:/app/data
+      - ./notebooks/:/app/notebooks
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    ports:
+        - "$JUPYTER_PORT:$JUPYTER_PORT"
+        - "$TENSORBOARD_PORT:$TENSORBOARD_PORT"
+    env_file:
+     - ./.env
+    entrypoint: jupyter lab --ip 0.0.0.0 --port=$JUPYTER_PORT --no-browser --allow-root
