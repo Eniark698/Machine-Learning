@@ -8,3 +8,6 @@ osx-venv-3_11
 Cats_and_Dogs-20231119T134556Z-001.zip
 venv/
 petfinder-adoption-prediction/
+/datasets/timeser_final.csv
+/datasets/timeser.csv
+/datasets/petfinder-adoption-prediction.zip
