@@ -38,7 +38,7 @@ grpcio==1.60.0
 h5py==3.10.0
 holidays==0.39
 humanize==4.9.0
-idna==3.6
+idna==3.7
 importlib-resources==6.1.1
 ipykernel==6.27.1
 ipython==8.18.1
