@@ -133,7 +133,7 @@ torch==2.1.2
 torchaudio==2.1.2
 torchvision==0.16.2
 tornado==6.4
-tqdm==4.66.1
+tqdm==4.66.3
 traitlets==5.14.0
 types-PyYAML==6.0.12.12
 types-requests==2.31.0.10
