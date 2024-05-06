@@ -142,7 +142,7 @@ tzdata==2023.3
 upolygon==0.1.10
 urllib3==2.1.0
 wcwidth==0.2.12
-Werkzeug==3.0.1
+Werkzeug==3.0.3
 wrapt==1.14.1
 yarl==1.9.4
 zipp==3.18.1
